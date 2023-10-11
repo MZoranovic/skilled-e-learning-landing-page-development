@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+  body {
+    background: linear-gradient(180deg,#fff 0,#f0f1ff 100%);
+    font-family: "Plus Jakarta Sens", sans-serif;
+    }
+
+    main {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      background-image: url(./assets/image-hero-desktop.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-position: 180%;
+      background-position-y: -100px;
+    }
+
+    main p {
+      color: #83869a;
+      font-size: 13px;
+    }
+  
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .logo {
+      width: 80px;
+      height: 20px; 
+    }
+
+    .button-one, .button-two, .button-three {
+      background-color: #13183f;
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      width: 100px;
+      border-radius: 30px;
+      padding: 0.5rem;
+      text-align: center;
+      margin-right: 160px;
+      cursor: pointer;
+    }
+
+    .content-one {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 500px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: #13183f;
+      margin-bottom: 1rem;
+    }
+
+    .button-two {
+      background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+      margin-top: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 50px;
+      margin-top: -40px;
+    }
+
+    .card-one {
+      background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+      border-radius: 10px;
+      padding: 2rem;
+    }
+
+    .card-one h1 {
+      color: #ffffff;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 2rem;
+      position: relative;
+    }
+
+    .card h2 {
+      color: #13183f;
+      margin-top: 40px;
+      margin-bottom: 1.5rem;
+    }
+
+    h3 { 
+      color: #f02aa6;
+      font-size: 15px;
+      margin-top: 1.5rem;
+    }
+
+    .icon {
+      position: absolute;
+      margin-top: -60px;
+    }
+
+    footer {
+      background-color: #13183f;
+      display: flex;
+      justify-content: space-between;
+      padding: 1.5rem;
+      margin-top: 80px;
+    }
+
+    .button-three {
+      background: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+      margin-right: 0;
+    }
